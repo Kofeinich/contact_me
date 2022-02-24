@@ -9,9 +9,6 @@ const Global = createGlobalStyle`
     padding: 0;
     text-align: center;
     font-family: 'The Nautigal', cursive;
-    background: linear-gradient(90deg,
-    rgb(255, 255, 255) 0%,
-    rgb(81, 197, 246) 100%);
   }
 `
 
