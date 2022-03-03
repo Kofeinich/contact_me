@@ -7,6 +7,7 @@ const StyledTitle = styled.h1`
   text-align: center;
   margin-right: 1rem;
   margin-top: 1rem;
+  margin-bottom: 1rem;
   text-shadow: 0 1px 0 #ccc, 0 2px 0 #ccc,
   0 3px 0 #ccc, 0 4px 0 #ccc,
   0 5px 0 #ccc, 0 6px 0 #ccc,
