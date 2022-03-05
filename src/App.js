@@ -4,7 +4,7 @@ import Page from "./components/Page";
 
 function App() {
   return (
-      <BrowserRouter basename="/kof">
+      <BrowserRouter>
         <Routes>
           <Route path="/" element={<Page/>}/>
         </Routes>

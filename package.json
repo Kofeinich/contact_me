@@ -41,6 +41,7 @@
   "devDependencies": {
     "@pmmmwh/react-refresh-webpack-plugin": "^0.5.4",
     "babel-plugin-styled-components": "^2.0.2",
+    "mini-css-extract-plugin": "2.4.5",
     "prop-types": "^15.8.1",
     "react-image": "^4.0.3",
     "react-lazy-load-image-component": "^1.5.1",

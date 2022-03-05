@@ -1,6 +1,8 @@
 import classNames from 'classnames';
 import PropTypes from 'prop-types';
+import styled from "styled-components";
 import "./Image.css"
+
 
 const CustomImage = ({
                          src, alt, className, height, width, circle, border, filter, ...attrs
@@ -16,6 +18,7 @@ const CustomImage = ({
     if(!src){
         src = `https://via.placeholder.com/${width}x${height}`
     }
+
 
     return (
       <img

@@ -151,40 +151,6 @@ const StyledBox5 = styled.div`
   }
 `
 
-
-
-let telegramBox = "0 0 16 16";
-let tHeight = 60; let tWidth = 60;
-let instagramBox = "0 0 64 64";
-let iHeight = 78; let iWidth = 78;
-let githubBox = "0 0 30 30";
-let gHeight = 78; let gWidth = 78;
-let photoWidth = 250;
-let photoHeight = 250;
-
-if (window.innerWidth > 520){
-    tWidth = 120;
-    tHeight = 120;
-    gHeight = 140;
-    gWidth = 140;
-    iHeight = 140;
-    iWidth = 140;
-}
-
-if (window.innerWidth > 1200){
-    photoHeight = 350;
-    photoWidth = 350;
-}
-
-let backgroundSVG = <></>
-
-if (document.documentElement.clientWidth > 1200){
-    backgroundSVG = <SVGForME/>
-}
-else {
-    backgroundSVG = <></>
-}
-
 const myBackgroundSVG = styled.div`
   top: 0;
   padding: 0;
@@ -197,6 +163,47 @@ const myBackgroundSVG = styled.div`
 `
 
 
+
+let telegramBox = "0 0 16 16";
+let tHeight = 60; let tWidth = 60;
+let instagramBox = "0 0 64 64";
+let iHeight = 78; let iWidth = 78;
+let githubBox = "0 0 30 30";
+let gHeight = 78; let gWidth = 78;
+let photoWidth = 250;
+let photoHeight = 250;
+let tFill = "#0088cc";
+let gFill = "#414141";
+
+if (window.innerWidth > 520){
+    tWidth = 120;
+    tHeight = 120;
+    gHeight = 140;
+    gWidth = 140;
+    iHeight = 140;
+    iWidth = 140;
+    tFill = "#EE500AB2";
+    gFill = "#EE500AB2";
+}
+
+if (window.innerWidth > 1200){
+    photoHeight = 350;
+    photoWidth = 350;
+    tFill = "#EE500AB2";
+    gFill = "#EE500AB2";
+}
+
+let backgroundSVG = <></>
+
+if (document.documentElement.clientWidth > 1200){
+    backgroundSVG = <SVGForME/>
+}
+else {
+    backgroundSVG = <></>
+}
+
+
+
 function Page(){
     return <StyledSection>
         <StyledSectionInside>
@@ -207,7 +214,7 @@ function Page(){
                 </StyledImageMe>
                 <StyledBoxIcons>
                     <TelDiv>
-                        <TelegramIcon viewBox={telegramBox} width={tWidth} height={tHeight} fill={"#0088cc"}
+                        <TelegramIcon viewBox={telegramBox} width={tWidth} height={tHeight} fill={tFill}
                                       onClick={() => {
                                           window.location = 'https://t.me/FedorKonyukhoff'
                                       }}
@@ -221,7 +228,7 @@ function Page(){
                         />
                     </InstDiv>
                     <GitDiv>
-                        <GitHubIcon viewBox={githubBox} width={gWidth} height={gHeight} fill={"#414141"}
+                        <GitHubIcon viewBox={githubBox} width={gWidth} height={gHeight} fill={gFill}
                                     onClick={() => {
                                         window.location = 'https://github.com/Kofeinich'
                                     }}
