@@ -9,7 +9,7 @@ import {StyledSection,
     InstDiv,
     TelDiv,
     GitDiv} from "./service/styles/DefaultStyles"
-import {MyBox, ImageWrapper, TitleWrapper, MyFlex, MyHeading, MyParagraph} from "./service/styles/Styles";
+import {MyBox, ImageWrapper, TitleWrapper, MyFlex, MyHeading, MyParagraph, List, ListItem,} from "./service/styles/Styles";
 
 
 let dis="flex"
@@ -20,6 +20,8 @@ let ca=''
 let dir=''
 let as=''
 let w='300px'
+let h='250px'
+let h2='175px'
 
 if (window.innerWidth < 1000){
     dir='column'
@@ -44,18 +46,28 @@ function Page(){
                 </MyFlex>
                 <MyFlex theme={{ dis: dis, dir: dir, as: as, ca: ca, cj: cj}}>
                     <MyFlex theme={{ dis: dis, dir: dir, as: as, ca: ca, cj: cjs, mw: mw,}}>
-                        <MyBox theme={{ w: w}}>
+                        <MyBox theme={{ w: w, h: h}}>
                             <MyHeading>
                                 Skills
                             </MyHeading>
                             <MyParagraph>
-                                React JS, ES6, HTML 5, CSS 3<br/>
-                                Chakra UI, Skeleton, Git, <br/>
-                                SSR, SSG, Axios, Redux-Saga,<br/>
-                                SCRUM, Project management
+                                <List>
+                                    <ListItem>
+                                        React JS, ES6, HTML5, CSS3
+                                    </ListItem>
+                                    <ListItem>
+                                        Styled Components, Chakra UI, Skeleton
+                                    </ListItem>
+                                    <ListItem>
+                                        Axios, Redux-Saga, SSG (Gatsby JS), SSR (Next JS)
+                                    </ListItem>
+                                    <ListItem>
+                                        Git, PM, Scrum, English (B2)
+                                    </ListItem>
+                                </List>
                             </MyParagraph>
                         </MyBox>
-                        <MyBox theme={{ w: w}}>
+                        <MyBox theme={{ w: w, h: h2}}>
                             <MyHeading>
                                 Contacts
                             </MyHeading>
@@ -83,15 +95,23 @@ function Page(){
                                 </GitDiv>
                             </StyledBoxIcons>
                         </MyBox>
-                        <MyBox theme={{ w: w}}>
+                        <MyBox theme={{ w: w, h: h}}>
                             <MyHeading>
                                 Additional Info
                             </MyHeading>
                             <MyParagraph>
-                                React JS, ES6, HTML 5, CSS 3<br/>
-                                Chakra UI, Skeleton, Git, <br/>
-                                SSR, SSG, Axios, Redux-Saga,<br/>
-                                SCRUM, Project management
+                                <List>
+                                    <ListItem>
+                                        I am a 4th year student at ITMO University
+                                    </ListItem>
+                                    <ListItem>
+                                        Rollerblading and snowboarding
+                                    </ListItem>
+                                    <ListItem>
+                                        Travelling and cats lover
+                                    </ListItem>
+                                    😎🙏🐵🌎🧳🎿
+                                </List>
                             </MyParagraph>
                         </MyBox>
                     </MyFlex>

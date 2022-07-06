@@ -20,23 +20,26 @@ export const MyBox = styled.div`
   color: white;
   margin: 5vw;;
   width: ${props => props.theme.w};
-  height: 250px;
+  height: ${props => props.theme.h};
   border-radius: 20px;
   align-self: center;
 `
 
 export const MyHeading = styled.h2`
+  font-family: "Andale Mono",serif;
+  color: #ffe4c4;
   text-align: center;
-  font-size: xx-large;
+  font-size: large;
   padding-top: 10px;
   padding-bottom: 10px;
 `
 
 export const MyParagraph = styled.p`
+  font-family: "Andale Mono",serif;
   text-align: left;
   padding-right: 20px ;
   padding-left: 20px;
-  font-size: large;
+  font-size: medium;
 `
 
 export const TitleWrapper = styled.div`
@@ -57,4 +60,15 @@ export const ImageWrapper = styled.div`
     text-align: center;
     padding: 1rem;
   }
+`
+
+export const List = styled.ul`
+  padding-left: 10px;
+  font-family: "Andale Mono",serif;
+`
+
+export const ListItem = styled.li`
+  font-family: "Andale Mono",serif;
+  text-align: left;
+  
 `

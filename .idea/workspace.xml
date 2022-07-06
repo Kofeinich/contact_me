@@ -2,20 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04cdcada-0d36-424f-b12f-5892a3420f7b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/service/styles/DefaultStyles.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/service/styles/Styles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/contact-me.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Title.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Title.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/source/GitHubIcon.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/service/functional/SvgGitHub.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/source/Image.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/Image.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/source/Image.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/service/functional/CustomImage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/source/InstagramIcon.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/service/functional/SvgInstagram.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/source/SVGForME.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/source/TelegramIcon.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/service/functional/SvgTelegram.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/service/styles/DefaultStyles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/service/styles/DefaultStyles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/service/styles/Styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/service/styles/Styles.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +71,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1656947647549</updated>
-      <workItem from="1656947651779" duration="14266000" />
+      <workItem from="1656947651779" duration="15630000" />
+      <workItem from="1657126062660" duration="3040000" />
     </task>
     <servers />
   </component>

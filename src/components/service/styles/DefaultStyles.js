@@ -29,7 +29,7 @@ export const StyledSection = styled.section`
       text-align: center;
       width: 100vw;
       height: 100vh;
-      min-height: 1400px;
+      min-height: 1325px;
       min-width: 300px;
     }
   }
