@@ -43,7 +43,6 @@ export const StyledSection = styled.section`
       width: 100%;
       height: 100vh;
       min-height: 1700px;
-      min-width: 500px;
     }
   }
 
@@ -54,6 +53,7 @@ export const StyledSection = styled.section`
       text-align: center;
       width: 100vw;
       height: 100vh;
+      min-height: 780px;
       min-width: 500px;
       background-image: url("/assets/mountains-1412683.png");
     }
